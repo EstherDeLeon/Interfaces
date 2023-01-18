@@ -1,0 +1,60 @@
+div{
+    border: 1px solid black;
+    width: 40%;
+    margin: 0 auto;
+    padding: 0,5px;
+}
+table{
+    
+    border-collapse: separate;
+    border-spacing: 4px;
+    margin: 0 auto;
+    
+}
+th,td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 3px;
+    
+}
+th.uno{
+    background-color: rgb(246, 194, 7);
+    height: 70px;
+    
+    
+}
+td.dos{
+    background-color: yellow;
+    height: 70px;
+    
+}
+th.tres{
+    background-color: rgb(3, 14, 173);
+    height: 70px;
+}
+th.cuatro{
+    background-color: yellow;
+    height: 70px;
+}
+td.cinco{
+    background-color: rgb(223, 21, 21);
+    height: 70px;
+}
+td.seis{
+    background-color: rgb(3, 14, 173);
+    height: 70px;
+}
+td.siete{
+    background-color: yellow;
+    height: 70px;
+}td.ocho{
+    background-color: red;
+    height: 70px;
+}td.nueve{
+    background-color: red;
+    height: 70px;
+}
+td.diez{
+    background-color: red;
+    height: 70px;
+}

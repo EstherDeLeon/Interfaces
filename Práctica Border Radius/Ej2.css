@@ -1,0 +1,81 @@
+div.cuadrado {
+    height: 390px;
+    width: 420px;
+    border: 5px solid rgb(92, 173, 75);
+    margin: auto;
+}
+
+div.b1 {
+    border: 70px solid rgb(243, 202, 39);
+    background-color: white;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-left: 112px;
+    margin-right: 100px;
+    margin-bottom: -25px;
+    margin-top: 10px;
+    text-align: center;
+    font-size: 40px;
+    
+    
+
+}
+
+div.b2 {
+    border: 70px solid green;
+    background-color: white;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-top: -3px;
+    float: left;
+    margin-left: 20px;
+    text-align: center;
+    font-size: 40px;
+
+}
+
+div.b3 {
+    border: 70px solid blue;
+    background-color: white;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-top: -3px;
+    float: right;
+    margin-right: 20px;
+    text-align: center;
+    font-size: 40px;
+  
+
+}
+  
+p.tres{
+    text-align: center;
+    font-size: 40px;
+    margin-top: 0px;
+    margin-bottom: 20px;
+    visibility: visible;
+
+}
+p.dos{
+    text-align: center;
+    font-size: 40px;
+    margin-top:-68px;
+    margin-bottom: 20px;
+    /*visibility: hidden;*/
+   
+
+}
+
+p.dos:hover{
+  visibility: visible;
+}
+div #uno:hover {
+    border: 70px solid black;
+
+  
+    
+}
+

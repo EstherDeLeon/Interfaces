@@ -1,0 +1,146 @@
+/* CSS Document */
+
+/*PAGE LAYOUT*/
+
+#toplinks{
+	position:absolute; right:10px; top:10px; 
+}
+#submenu{
+	float:right; right: 0%; width:526px; height:32px;
+	background-image:url(bg_submenu.gif); background-position:top;
+	background-repeat:repeat-x;
+	}
+
+/*GRAY PANEL*/
+.graypanel{
+	 background-color:#e6e5e0; padding:10px; margin:10px;
+}
+
+/*TEXT STYLES*/
+.bodytext {
+	font: 0.75em Tahoma, sans-serif;
+	color: #666666;
+}
+
+.titletext {
+	font: 0.7em Tahoma, sans-serif;	
+	color:#CC0000;
+}
+.whitetitle {
+	font: 0.7em Tahoma, sans-serif;
+	font-size:36px;
+	font-weight:bold;
+	color:#FFFFFF;
+}
+.smalltitle {
+	font:  Tahoma, sans-serif;
+	font-size:20px;
+	font-weight:bold;
+	color:#CC0000;
+}
+.smallwhitetext {
+	font: 0.7em Tahoma, sans-serif;
+	font-size: 11px;
+	font-weight:bold;
+	color: #FFFFFF;
+}
+.smallwhitetext a{
+	font: 0.7em Tahoma, sans-serif;
+	font-size: 11px;
+	font-weight:bold;	
+	text-decoration:none;
+}
+.smallwhitetext a:hover{
+	text-decoration:underline;
+}
+.smallgraytext {
+	font: 0.7em Tahoma, sans-serif;
+	font-size: 11px;
+	font-weight:bold;
+	color:#999999;
+
+}
+.smallgraytext a{
+	font: 0.7em Tahoma, sans-serif;
+	font-size: 11px;
+	font-weight:bold;
+	color:#999999;
+	text-decoration:none;
+}
+.smallgraytext a:hover{
+	text-decoration:underline;
+}
+.smallredtext {
+	font: 0.7em Tahoma, sans-serif;
+	font-size: 11px;
+	font-weight:bold;
+	color:#CC0000;
+}
+.smallredtext a{
+	font: 0.7em Tahoma, sans-serif;
+	font-size: 11px;
+	font-weight:bold;
+	color:#CC0000;
+	text-decoration:none;
+}
+div#logo {
+	float: left;
+	background: url('tie_logo.gif') no-repeat  ;
+	width: 274px;
+	height: 213px;
+}
+
+div#topheader {
+	float: right;
+	position: relative;
+	width:526px;
+	height:97px;
+	background-color: #F0F0F0;
+	margin-top:0px;
+}
+div#menu {
+	float: right;
+	width:526px;
+	height:32px;
+	background: url('bg_menu.gif') repeat-x;
+	margin-top: 0%;
+}
+div#contenttext {
+	float: right;
+	width: 526px;
+
+}
+div#leftpanel {
+	float: left;
+	width: 274px;
+	height: auto;
+}
+
+
+div.graypanel{
+	border: 1px solid #666666;
+}
+span.titletext{
+	font-size: 36px;
+	font-weight: bold;
+}
+div span.smalltitle{
+	font-size:0,7em;
+}
+div.smallwhitetext a{
+	color: #FFFFFF;
+
+}
+div span.smallredtext a:hover{
+	text-decoration: underline;
+
+}
+#footer {
+	float: left;
+	width: 800px;
+	background-color: #F0F0F0;
+	padding: 10px;
+}
+
+
+/*barra de menu 512px X 526 px*/

@@ -1,0 +1,27 @@
+p:nth-child(2){
+ font-weight: bold;
+}
+a[href*="http"] {
+    background: url('external-link.png') no-repeat  ;
+    background-size: 16px 16px;
+    padding-left: 20px;
+  }
+a[href$="pdf"] {
+    background: url('pdf-link.png') no-repeat  ;
+    background-size: 16px 16px;
+    padding-left: 20px;
+  }
+a[href*="#"] {
+    background: url('internal-link.png') no-repeat  ;
+    background-size: 16px 16px;
+    padding-left: 20px;
+  }
+  a[href$="zip"] {
+    background: url('zip-link.png') no-repeat  ;
+    background-size: 16px 16px;
+    padding-left: 20px;
+  }
+  p span {
+    background-color: rgb(236, 246, 105);
+    font-size: 110%;
+    }

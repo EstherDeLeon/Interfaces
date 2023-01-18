@@ -1,0 +1,84 @@
+
+table{
+    
+    border-collapse: collapse;
+    border-spacing: 4px;
+    margin: 0 auto;
+    
+    
+}
+th,td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 3px;
+    
+}
+tr.uno{
+    
+    font-size: 30px;
+    font-weight: bold;
+    height: 40px;
+    
+}
+td.dos{
+    
+    text-align: center;
+    height: 40px;
+    font-size: 20px;
+    
+}
+th.tres{
+    text-align: center;
+    font-size: 30px;
+    
+   
+}
+th.cuatro{
+    background-color: rgb(122, 239, 184);
+    font-size: 20px;
+   
+}
+td.cuatro{
+    background-color: rgb(122, 239, 184);
+    font-size: 20px;
+   
+}
+th.cinco{
+    background-color: rgb(188, 65, 230);
+    font-size: 20px;
+    
+}
+th.seis{
+    background-color: rgb(214, 156, 98);
+    font-size: 20px;
+   
+}
+td.seis{
+    background-color: rgb(214, 156, 98);
+    font-size: 20px;
+}
+td.siete{
+    background-color: rgb(237, 204, 20);
+    font-size: 20px;
+    
+}
+td.ocho{
+    background-color: rgb(27, 155, 235);
+    font-size: 20px;
+   
+}
+th.ocho{
+    background-color: rgb(27, 155, 235);
+    font-size: 20px;
+   
+}
+td.nueve{
+    background-color: rgb(244, 238, 135);
+    font-size: 20px;
+   
+}
+th.nueve{
+    background-color: rgb(244, 238, 135);
+    font-size: 20px;
+   
+}

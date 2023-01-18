@@ -1,0 +1,142 @@
+body {
+    margin: 0%;
+}
+
+.banner {
+
+    height: 200px;
+    width: 100%;
+}
+
+.banner img {
+    width: 98%;
+    height: 500px;
+    margin-left: 16px
+}
+
+.header {
+
+    margin-top: 310px;
+    background-color: rgb(114, 68, 13);
+    margin-left: 16px;
+    width: 98%;
+    height: 110px;
+
+}
+
+.header img {
+    float: left;
+    margin-left: 12px;
+}
+
+.header p {
+    color: white;
+    font-size: 40px;
+    text-align: center;
+    padding: 30px;
+
+}
+
+
+.barra_navegacion {
+    width: 98%;
+    margin-left: 16px;
+
+}
+
+.barra {
+    float: right;
+    background-color: rgb(4, 4, 4);
+    width: 82.5%;
+    height: 100px;
+    margin-top: -32px;
+
+
+}
+
+.main-links {
+    display: flex;
+    gap: 3rem;
+    list-style: none;
+}
+
+.main-links li {
+    margin-left: -40px;
+    padding: 1rem 3rem 0.5rem 3rem;
+    width: 12%;
+    height: 76px;
+    margin-top: -16px;
+    background-color: rgb(10, 207, 197);
+}
+
+.dropdown-li {
+    position: absolute;
+
+}
+
+.dropdown-li p {
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    padding: -0px;
+}
+
+.dropdown-li:hover .dropdown {
+    display: block;
+    opacity: 1;
+    width: auto;
+
+}
+
+.dropdown {
+
+    margin-left: 40px;
+    padding: 0;
+    height: 0;
+    position: absolute;
+    left: 0;
+    right: 5px;
+    top: 100%;
+    opacity: 0;
+    display: none;
+
+
+}
+
+.dropdown li {
+    list-style: none;
+}
+
+.content {
+    margin-left: 16px;
+    width: 98%;
+    height: 1000px;
+    background-color: rgb(83, 30, 30);
+
+}
+
+.footer {
+    margin-left: 16px;
+    width: 98%;
+    height: 50px;
+    margin-top: 0px;
+    margin-bottom: 1%;
+    background-color: black;
+
+}
+
+.iz {
+    float: left;
+    color: white;
+    font-size: 20px;
+    margin-left: 5px;
+
+}
+
+.de {
+    float: right;
+    color: white;
+    font-size: 20px;
+    margin-right: 5px;
+
+}

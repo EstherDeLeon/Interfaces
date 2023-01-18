@@ -1,0 +1,184 @@
+body {
+    margin: auto;
+    background-color: black;
+}
+
+.all {
+    width: 30%;
+
+}
+
+.header {
+
+    background-color: rgb(71, 70, 70);
+    height: 200px;
+    margin-top: -80px;
+
+
+}
+
+
+
+.white {
+    color: white;
+    font: bold;
+    font-size: 70px;
+    margin-left: 50%;
+    transform: translate(-26%, 50%);
+}
+
+.icon {
+    color: white;
+    font-style: italic;
+    font-size: 40px;
+    margin-left: 50%;
+    transform: translate(-18%, -25%);
+}
+
+
+
+.sprite {
+    margin-top: 200px;
+    background-image: url(spritesheet.png);
+    background-repeat: no-repeat;
+    display: block;
+    width: 50%;
+    height: 50%;
+    margin-left: 80px;
+}
+
+.sprite-Chanel-Black-Bag {
+    float: left;
+    width: 100px;
+    height: 100px;
+    background-position: -5px -5px;
+}
+
+.sprite-Chanel-Black-Bag:hover {
+    width: 100px;
+    height: 100px;
+    background-position: -335px -5px;
+}
+
+.sprite-Chanel-Black-Glasses {
+    float: left;
+    width: 100px;
+    height: 100px;
+    background-position: -115px -5px;
+}
+
+.sprite-Chanel-Black-Glasses:hover {
+    width: 100px;
+    height: 100px;
+    background-position: -225px -225px;
+}
+
+.sprite-Chanel-Logo {
+    float: left;
+    width: 100px;
+    height: 100px;
+    background-position: -225px -5px;
+}
+
+.sprite-Chanel-Logo:hover {
+    width: 100px;
+    height: 100px;
+    background-position: -115px -225px;
+}
+
+.sprite-Chanel-Necklace {
+    float: left;
+    width: 100px;
+    height: 100px;
+    background-position: -5px -115px;
+}
+
+.sprite-Chanel-Necklace:hover {
+    width: 100px;
+    height: 100px;
+    background-position: -5px -225px;
+}
+
+.sprite-Chanel-No5 {
+    float: left;
+    width: 100px;
+    height: 100px;
+    background-position: -115px -115px;
+}
+
+.sprite-Chanel-No5:hover {
+    width: 100px;
+    height: 100px;
+    background-position: -225px -115px;
+}
+
+.sprite-Chanel-Pink-Glasses {
+    float: left;
+    width: 100px;
+    height: 100px;
+    background-position: -225px -115px;
+}
+
+.sprite-Chanel-Pink-Glasses:hover {
+    width: 100px;
+    height: 100px;
+    background-position: -115px -115px;
+}
+
+.sprite-Chanel-Pink-Shoe {
+    float: left;
+    width: 100px;
+    height: 100px;
+    background-position: -5px -225px;
+}
+
+.sprite-Chanel-Pink-Shoe:hover {
+    width: 100px;
+    height: 100px;
+    background-position: -5px -115px;
+}
+
+.sprite-Chanel-Silver-Purse {
+    float: left;
+    width: 100px;
+    height: 100px;
+    background-position: -115px -225px;
+}
+
+.sprite-Chanel-Silver-Purse:hover {
+    width: 100px;
+    height: 100px;
+    background-position: -225px -5px;
+}
+
+.sprite-Chanel-Watch {
+    float: left;
+    width: 100px;
+    height: 100px;
+    background-position: -225px -225px;
+}
+
+.sprite-Chanel-Watch:hover {
+    width: 100px;
+    height: 100px;
+    background-position: -115px -5px;
+}
+
+.sprite-Chanel-White-Shoe {
+    float: left;
+    width: 100px;
+    height: 100px;
+    background-position: -335px -5px;
+}
+
+.sprite-Chanel-White-Shoe:hover {
+    width: 100px;
+    height: 100px;
+    background-position: -5px -5px;
+}
+
+
+.hr {
+    border: 8px solid white;
+    margin-top: -40px;
+}
