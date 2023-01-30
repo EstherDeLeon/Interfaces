@@ -7,33 +7,97 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Imagen con formas poligonales</title>
     <style>
-        
-
-    /*que los label esten ocultos y se vean solo cuando pase el mouse por encima*/
-    
-    img{
-        margin-left: 500px;
+     .general{
+        background-color: rgb(18, 18, 18);
+        width: 40%;
+     }   
+    /*ocultar los label*/
+    label {
+        display: none;
     }
-    .general{
-      
-        position: absolute;
+    
+    .ba{
+        top: 480px;
+        left: 300px;
        
     }
+    .pe{
+        top: 410px;
+        left: 60px;
+    }
+    .me{
+        top: 200px;
+        left: 430px;
+    }
+    .tor{
+        top: 100px;
+        left: 430px;
+    }
+    .can{
+        top: 250px;
+        left: 150px;
+    }
+    .caba{
+        top: 260px;
+        left: 20px;
+    }
+    .ballena:hover+label {
+        display: block;
+        position: absolute;
+        background-color: #fff;
+        border: 1px solid #000;
+        padding: 5px;
+       
+    }
+    .pez:hover+label {
+        display: block;
+        position: absolute;
+        background-color: #fff;
+        border: 1px solid #000;
+        padding: 5px;
+       
+    }
+    .medusa:hover+label {
+        display: block;
+        position: absolute;
+        background-color: #fff;
+        border: 1px solid #000;
+        padding: 5px;
+       
+    }
+    .tortuga:hover+label {
+        display: block;
+        position: absolute;
+        background-color: #fff;
+        border: 1px solid #000;
+        padding: 5px;
+       
+    }
+    .cangrejo:hover+label {
+        display: block;
+        position: absolute;
+        background-color: #fff;
+        border: 1px solid #000;
+        padding: 5px;
+       
+    }
+    .caballito:hover+label {
+        display: block;
+        position: absolute;
+        background-color: #fff;
+        border: 1px solid #000;
+        padding: 5px;
+       
+    }
+
+
     
     
-    label {
-        
-    margin: 10px 0 0 0;
-    padding: .3em;
-    display: none;
-    background: #FFF;
-    opacity: 0.65;
-    position: absolute;
-    top: 100%;
-    }
-    div.general label:hover {
-    display: block;
-    }
+    
+  
+
+
+
 
 
 
@@ -51,30 +115,30 @@
         <img src="animales-marinos_a_color.png" usemap="#image-map">
 
         <map name="image-map">
-            <area target="ballena" alt="" title="" class="ballena" id="ballenita"
+            <area target="ballena" alt="" title=""  class="ballena"
                 coords="188,299,214,294,169,306,157,315,147,332,141,344,135,356,131,368,130,380,129,391,132,408,136,420,148,437,158,445,177,458,207,470,236,476,293,479,314,476,337,473,366,460,388,449,404,436,419,422,430,397,434,372,437,358,437,346,453,346,465,338,476,327,481,321,474,315,459,310,451,311,444,312,443,302,438,290,433,281,424,269,416,263,410,272,404,280,402,287,398,297,396,308,399,318,403,330,412,336,414,345,411,352,405,356,396,363,383,369,370,368,353,359,334,347,315,330,296,318,277,309,253,298,235,293,222,293,200,294,204,291,200,294"
                 shape="poly">
-            <label for="ballena">Ballena</label>
-            <area target="pez" alt="" title=""
+            <label for="ballena" class="ba">Ballena</label>
+            <area target="pez" alt="" title="" class="pez"
                 coords="11,349,22,333,25,315,32,306,43,301,61,297,72,298,80,297,90,301,100,308,103,313,111,318,116,325,119,332,117,337,111,342,126,338,124,346,125,356,124,366,124,374,116,371,120,377,121,384,122,390,118,398,108,401,95,404,84,409,73,407,61,404,51,399,40,394,31,384,20,376,13,367,10,357"
                 shape="poly" />
-            <label for="pez">Pez</label>
-            <area target="medusa" alt="" title=""
+            <label for="pez" class="pe">Pez</label>
+            <area target="medusa" alt="" title="" class="medusa"
                 coords="290,166,274,183,266,206,268,227,269,239,268,251,271,259,280,262,292,262,274,271,271,284,275,294,281,301,287,310,298,306,297,287,304,294,308,303,300,312,312,322,324,320,326,299,335,304,341,307,337,313,346,324,359,320,364,307,353,292,360,283,373,286,367,298,373,310,384,312,392,307,394,294,399,281,387,268,378,265,400,263,413,259,405,249,407,233,411,217,406,198,401,182,388,166,372,157,350,148,325,150,307,157"
                 shape="poly" />
-            <label for="medusa">Medusa</label>
-            <area target="tortuga" alt="" title=""
+            <label for="medusa" class="me">Medusa</label>
+            <area target="tortuga" alt="" title="" class="tortuga"
                 coords="265,167,277,159,287,151,300,151,318,148,337,145,352,145,367,143,380,144,389,149,397,156,409,155,411,145,409,133,412,123,408,107,405,87,401,77,393,65,382,55,366,44,338,38,312,36,294,40,271,50,271,35,258,17,244,7,226,4,209,6,195,10,186,22,177,41,181,61,190,76,206,90,219,101,228,115,244,130,249,138,245,154,248,170"
                 shape="poly" />
-            <label for="tortuga">Tortuga</label>
-            <area target="cangrejo" alt="" title=""
+            <label for="tortuga" class="tor">Tortuga</label>
+            <area target="cangrejo" alt="" title="" class="cangrejo"
                 coords="147,249,146,238,163,235,185,233,208,229,225,223,233,240,241,231,246,218,261,222,257,201,262,195,266,189,261,177,254,171,243,166,236,168,238,157,241,143,240,133,231,119,215,109,208,110,200,118,199,129,185,120,178,127,176,140,170,145,158,130,143,132,144,153,143,154,138,139,125,124,114,124,104,131,103,146,109,160,119,170,122,182,117,185,105,190,99,200,100,208,101,219,117,204,106,218,106,226,107,236,114,252,124,236,125,230,125,243,139,256,146,259"
                 shape="poly" />
-            <label for="cangrejo">Cangrejo</label>
-            <area target="caballito" alt="" title=""
+            <label for="cangrejo" class="can">Cangrejo</label>
+            <area target="caballito" alt="" title="" class="caballito"
                 coords="135,109,135,99,128,91,121,91,123,79,117,70,109,59,107,49,110,35,93,34,86,30,76,31,68,36,54,36,49,42,37,49,33,59,38,68,34,73,33,92,33,106,35,119,19,111,13,113,10,127,14,139,7,146,4,158,14,164,12,173,17,182,29,183,20,197,19,213,28,234,39,247,62,255,87,248,95,239,98,228,93,209,85,207,98,196,106,182,111,163,97,132,97,131,115,116"
                 shape="poly" />
-            <label for="caballito">Caballito</label>
+            <label for="caballito" class="caba">Caballito de mar</label>
         </map>
     </div>
 </body>
