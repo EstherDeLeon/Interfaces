@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div {
+            width: 200px;
+            height: 200px;
+            background: url('sprite_dog.png');
+            margin: 0 auto;
+
+            border: #e6ccff 5px solid;
+
+
+        }
+
+        /*si el checkbox run esta activado,
+        el div se mueve muestra la animacion de correr */
+
+
+
+
+        @keyframes play {
+            from {
+                background-position: 0px 0px;
+            }
+
+            to {
+                background-position: -2000px 0px;
+            }
+
+        }
+
+
+        .divs {
+            margin-left: 750px;
+            margin-top: 50px;
+
+        }
+    </style>
+
+</head>
+
+<body>
+
+
+    <nav class="divs">
+        <input type="radio" id="run" name="run">
+        <label for="run">Run</label>
+        <input type="radio" id="walk" name="walk">
+        <label for="walk">Walk</label>
+        <input type="radio" id="jump" name="jump">
+        <label for="jump">Jump</label>
+        <input type="radio" id="idle" name="idle">
+        <label for="idle">Idle</label>
+        <input type="radio" id="dead" name="dead">
+        <label for="dead">Dead</label>
+        <input type="radio" id="slide" name="slide">
+        <label for="slide">Slide</label>
+        <input type="radio" id="fall" name="fall">
+        <label for="fall">Fall</label>
+
+
+
+
+
+    </nav>
+    <div></div>
+
+</body>
+
+</html>
