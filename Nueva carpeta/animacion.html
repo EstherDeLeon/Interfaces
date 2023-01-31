@@ -12,23 +12,38 @@
             height: 200px;
             background: url('sprite_dog.png');
             margin: 0 auto;
-            border: #e6ccff 5px solid;
+            border: #f8bbec 5px solid;
 
 
         }
-
+/*NO SE COMO HACER QUE LOS QUE SON 8 PASOS SALGAN BIENNN :'(*/
+        #dead:checked~div {
+            animation: dead 1s steps(10)  infinite;
+        }
+        
+        #fall:checked~div {
+            animation: fall 1s steps(10) infinite;
+        }
+        #hurt:checked~div {
+            animation: hurt 1s steps(10) infinite;
+        }
+        #idle:checked~div {
+            animation: idle 1s steps(10) infinite;
+        }
+        #jump:checked~div {
+            animation: jump 1s steps(10) infinite;
+        }
         #run:checked~div {
-            animation: play 1s steps(10) infinite;
+            animation: run 1s steps(10)  infinite;
+        }
+        #slide:checked~div {
+            animation: slide 1s steps(10) infinite;
+        }
+        #walk:checked~div {
+            animation: walk 1s steps(10)  infinite;
         }
 
-
-        /*si el checkbox run esta activado,
-        el div se mueve muestra la animacion de correr */
-
-
-
-
-        @keyframes play {
+        @keyframes dead {
             from {
                 background-position: 0px 0px;
             }
@@ -38,6 +53,82 @@
             }
 
         }
+        @keyframes fall {
+            from {
+                background-position: 0px -200px;
+            }
+
+            to {
+                background-position: -2000px -200px;
+            }
+
+        }
+        @keyframes hurt {
+            from {
+                background-position: 0px -400px;
+            }
+
+            to {
+                background-position: -2000px -400px;
+            }
+
+        }
+        @keyframes idle {
+            from {
+                background-position: 0px -600px;
+            }
+
+            to {
+                background-position: -2000px -600px;
+            }
+
+        }
+        @keyframes jump {
+            from {
+                background-position: 0px -800px;
+            }
+
+            to {
+                background-position: -2000px -800px;
+            }
+
+        }
+        @keyframes run {
+            from {
+                background-position: 0px -1000px;
+            }
+
+            to {
+                background-position: -2000px -1000px;
+            }
+
+        }
+        @keyframes slide {
+            from {
+                background-position: 0px -1200px;
+            }
+
+            to {
+                background-position: -2000px -1200px;
+            }
+
+        }
+        @keyframes walk {
+            from {
+                background-position: 0px -1400px;
+            }
+
+            to {
+                background-position: -2000px -1400px;
+            }
+
+        }
+        
+
+        
+
+
+
 
 
         .divs {
@@ -52,21 +143,29 @@
 <body>
 
 
+    <input type="radio" id="dead" name="dead">
+    <label for="dead">Dead</label>
+
+    <input type="radio" id="fall" name="fall">
+    <label for="fall">Fall</label>
+
+    <input type="radio" id="hurt" name="hurt">
+    <label for="hurt">Hurt</label>
+
+    <input type="radio" id="idle" name="idle">
+    <label for="idle">Idle</label>
+
+    <input type="radio" id="jump" name="jump">
+    <label for="jump">Jump</label>
 
     <input type="radio" id="run" name="run">
     <label for="run">Run</label>
-    <input type="radio" id="walk" name="walk">
-    <label for="walk">Walk</label>
-    <input type="radio" id="jump" name="jump">
-    <label for="jump">Jump</label>
-    <input type="radio" id="idle" name="idle">
-    <label for="idle">Idle</label>
-    <input type="radio" id="dead" name="dead">
-    <label for="dead">Dead</label>
+
     <input type="radio" id="slide" name="slide">
     <label for="slide">Slide</label>
-    <input type="radio" id="fall" name="fall">
-    <label for="fall">Fall</label>
+
+    <input type="radio" id="walk" name="walk">
+    <label for="walk">Walk</label>
 
     <div></div>
 
