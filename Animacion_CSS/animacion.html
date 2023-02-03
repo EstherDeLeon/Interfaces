@@ -13,34 +13,42 @@
             background: url('sprite_dog.png');
             margin: 0 auto;
             border: #f8bbec 5px solid;
+            border-radius: 20%;
 
 
         }
-/*NO SE COMO HACER QUE LOS QUE SON 8 PASOS SALGAN BIENNN :'(*/
+
+        /*NO SE COMO HACER QUE LOS QUE SON 8 PASOS SALGAN BIENNN :'(*/
         #dead:checked~div {
-            animation: dead 1s steps(10)  infinite;
+            animation: dead 1s steps(10) infinite;
         }
-        
+
         #fall:checked~div {
             animation: fall 1s steps(10) infinite;
         }
+
         #hurt:checked~div {
             animation: hurt 1s steps(10) infinite;
         }
+
         #idle:checked~div {
             animation: idle 1s steps(10) infinite;
         }
+
         #jump:checked~div {
             animation: jump 1s steps(10) infinite;
         }
+
         #run:checked~div {
-            animation: run 1s steps(10)  infinite;
+            animation: run 1s steps(10) infinite;
         }
+
         #slide:checked~div {
             animation: slide 1s steps(10) infinite;
         }
+
         #walk:checked~div {
-            animation: walk 1s steps(10)  infinite;
+            animation: walk 1s steps(10) infinite;
         }
 
         @keyframes dead {
@@ -53,6 +61,7 @@
             }
 
         }
+
         @keyframes fall {
             from {
                 background-position: 0px -200px;
@@ -63,6 +72,7 @@
             }
 
         }
+
         @keyframes hurt {
             from {
                 background-position: 0px -400px;
@@ -73,6 +83,7 @@
             }
 
         }
+
         @keyframes idle {
             from {
                 background-position: 0px -600px;
@@ -83,6 +94,7 @@
             }
 
         }
+
         @keyframes jump {
             from {
                 background-position: 0px -800px;
@@ -93,6 +105,7 @@
             }
 
         }
+
         @keyframes run {
             from {
                 background-position: 0px -1000px;
@@ -103,6 +116,7 @@
             }
 
         }
+
         @keyframes slide {
             from {
                 background-position: 0px -1200px;
@@ -113,6 +127,7 @@
             }
 
         }
+
         @keyframes walk {
             from {
                 background-position: 0px -1400px;
@@ -123,9 +138,9 @@
             }
 
         }
-        
 
-        
+
+
 
 
 
@@ -143,29 +158,30 @@
 <body>
 
 
-    <input type="radio" id="dead" name="dead">
+    <input type="radio" id="dead" name="button">
     <label for="dead">Dead</label>
 
-    <input type="radio" id="fall" name="fall">
+    <input type="radio" id="fall" name="button">
     <label for="fall">Fall</label>
 
-    <input type="radio" id="hurt" name="hurt">
+    <input type="radio" id="hurt" name="button">
     <label for="hurt">Hurt</label>
 
-    <input type="radio" id="idle" name="idle">
+    <input type="radio" id="idle" name="button">
     <label for="idle">Idle</label>
 
-    <input type="radio" id="jump" name="jump">
+    <input type="radio" id="jump" name="button">
     <label for="jump">Jump</label>
 
-    <input type="radio" id="run" name="run">
+    <input type="radio" id="run" name="button">
     <label for="run">Run</label>
 
-    <input type="radio" id="slide" name="slide">
+    <input type="radio" id="slide" name="button">
     <label for="slide">Slide</label>
 
-    <input type="radio" id="walk" name="walk">
+    <input type="radio" id="walk" name="button">
     <label for="walk">Walk</label>
+
 
     <div></div>
 
