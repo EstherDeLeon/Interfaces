@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <title>Document</title>
+    <style>
+      
+
+        .logo {
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            margin-top: 10px;
+
+
+
+        }
+
+        p {
+
+            margin-left: 35%;
+            height: 1px;
+            color: white;
+            margin-top: -10px;
+        }
+
+        .navbar {
+            overflow: hidden;
+            background-color: #ecaad9;
+        }
+
+        .navbar a {
+            float: right;
+            font-size: 16px;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+
+        .dropdown {
+            float: right;
+            overflow: hidden;
+        }
+
+        .dropdown .dropbtn {
+            font-size: 16px;
+            border: none;
+            outline: none;
+            color: white;
+            padding: 14px 16px;
+            background-color: inherit;
+            font-family: inherit;
+            margin: 0;
+        }
+
+        .navbar a:hover,
+        .dropdown:hover .dropbtn {
+            background-color: rgb(227, 147, 227);
+        }
+
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: rgb(224, 124, 214);
+            min-width: 160px;
+            box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+            z-index: 1;
+        }
+
+        .dropdown-content a {
+            float: none;
+            color: black;
+            padding: 12px 16px;
+            text-decoration: none;
+            display: block;
+            text-align: left;
+        }
+
+        .dropdown-content a:hover {
+            background-color: #ddd;
+        }
+
+        .dropdown:hover .dropdown-content {
+            display: block;
+        }
+
+        /*teléfonos móviles las imagenes se
+muestre en una sola columna,*/
+
+        img {
+            width: 150px;
+            height: 100px;
+        }
+        @media only screen and (max-width: 600px) {
+            .col-sm-2 {
+                width: 100%;
+                margin-top: 20px;
+            }
+        }
+
+        /*tablets las imagenes se muestre en tres columnas*/
+        @media only screen and (max-width: 768px) {
+            .col-sm-2 {
+                width: 50%;
+                margin-top: 20px;
+            }
+        }
+/* ordenadores cinco columnas.*/
+        @media only screen and (max-width: 992px) {
+            .col-sm-2 {
+                width: 20%;
+                margin-top: 20px;
+            }
+        }
+        .row {
+            margin-top: 80px;
+        }
+
+
+        /* footer anclado al final de la pagina*/
+        footer {
+            position: fixed;
+            left: 5px;
+            right: 5px;
+            bottom: 0;
+            width: 100%;
+            background-color: #ecaad9;
+            color: black;
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="navbar">
+
+        <p><img class="logo" src="img/logo.jpg">FAUNA Y FLORA DE REPÚBLICA DOMINICANA</p>
+        <a href="#home">Home</a>
+        <a href="#news">News</a>
+        <div class="dropdown">
+            <button class="dropbtn">Dropdown
+                <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="dropdown-content">
+                <a href="#">Link 1</a>
+                <a href="#">Link 2</a>
+                <a href="#">Link 3</a>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-2">
+                <img src="img/jorobada.jpg">
+            </div>
+            <div class="col-sm-2">
+                <img src="img/daisy.jpeg">
+                <h3>Orquidia Daisy</h3>
+            </div>
+            <div class="col-sm-2">
+                <img src="img/guayacan.jpg">
+                <h3>Orquidia Daisy</h3>
+            </div>
+            <div class="col-sm-2">
+                <img src="img/iguana.jpeg">
+                <h3>Orquidia Daisy</h3>
+            </div>
+            <div class="col-sm-2">
+                <img src="img/halcon.jpg">
+                <h3>Orquidia Daisy</h3>
+            </div>
+
+        </div>
+        <div class="row">
+            <div class="col-sm-2">
+                <img src="img/manglares.jpeg">
+            </div>
+            <div class="col-sm-2">
+                <img src="img/manatí.jpg">
+            </div>
+            <div class="col-sm-2">
+                <img src="img/orquidea.jpg">
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-sm-2">
+                <img src="img/carey.jpeg">
+            </div>
+            <div class="col-sm-2">
+                <img src="img/chinola.jpeg">
+            </div>
+            <div class="col-sm-2">
+                <img src="img/haitises.jpg">
+            </div>
+        </div>    
+
+    </div>
+
+    <footer class="text-center text-lg-start bg-light text-muted">
+        <div class="text-center p-4">
+            <b>Esther Guzman</b>
+        </div>
+    </footer>
+</body>
+
+</html>
