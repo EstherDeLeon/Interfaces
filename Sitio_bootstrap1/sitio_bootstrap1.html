@@ -5,212 +5,164 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-    
-    <title>Document</title>
+    <title>Sitio 1 bootstrap</title>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+   
+
+
     <style>
-        .logo {
-            width: 40px;
-            height: 40px;
-            border-radius: 50%;
-            margin-top: 10px;
-
-
-
-        }
-
-        p {
-
-            margin-left: 35%;
-            height: 1px;
-            color: white;
-            margin-top: -10px;
-        }
-
-        .navbar {
-            overflow: hidden;
-            background-color: #ecaad9;
-        }
-
-        .navbar a {
-            float: right;
-            font-size: 16px;
-            color: white;
-            text-align: center;
-            padding: 14px 16px;
-            text-decoration: none;
-        }
-
-        .dropdown {
-            float: right;
-            overflow: hidden;
-        }
-
-        .dropdown .dropbtn {
-            font-size: 16px;
-            border: none;
-            outline: none;
-            color: white;
-            padding: 14px 16px;
-            background-color: inherit;
-            font-family: inherit;
-            margin: 0;
-        }
-
-        .navbar a:hover,
-        .dropdown:hover .dropbtn {
-            background-color: rgb(227, 147, 227);
-        }
-
-        .dropdown-content {
-            display: none;
-            position: absolute;
-            background-color: rgb(224, 124, 214);
-            min-width: 160px;
-            box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
-            z-index: 1;
-        }
-
-        .dropdown-content a {
-            float: none;
-            color: black;
-            padding: 12px 16px;
-            text-decoration: none;
-            display: block;
-            text-align: left;
-        }
-
-        .dropdown-content a:hover {
-            background-color: #ddd;
-        }
-
-        .dropdown:hover .dropdown-content {
-            display: block;
-        }
-
-        /*teléfonos móviles las imagenes se
-        muestre en una sola columna,*/
-
         img {
-            width: 150px;
-            height: 100px;
+            width: 580px !important;
+            height: 180px !important;
         }
 
-        @media only screen and (max-width: 600px) {
-            .col-sm-2 {
-                width: 100%;
-                margin-top: 20px;
-            }
+        .logo {
+            width: 5% !important;
+            height: 5% !important;
+
+            border-radius: 50%;
         }
 
-        /*tablets las imagenes se muestre en tres columnas*/
-        @media only screen and (max-width: 768px) {
-            .col-sm-2 {
-                width: 50%;
-                margin-top: 20px;
-            }
-        }
-
-        /* ordenadores cinco columnas.*/
-        @media only screen and (max-width: 992px) {
-            .col-sm-2 {
-                width: 20%;
-                margin-top: 20px;
-            }
-        }
-
-        .row {
-            margin-top: 80px;
-        }
-
-
-        /* footer anclado al final de la pagina*/
-        footer {
-            position: fixed;
-            left: 5px;
-            right: 5px;
-            bottom: 0;
-            width: 100%;
-            background-color: #ecaad9;
-            color: black;
+        header {
+            background-color: rgb(33, 31, 31);
             text-align: center;
+            padding: 10px;
+            color: white;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
         }
+
+        .col-lg-2,
+        .col-md-3,
+        .col-sm-12 {
+            padding: 15px;
+        }
+
     </style>
 </head>
 
 <body>
-    <div class="navbar">
+    <header><img class="logo" src="img/logo.jpg">
+        <h1>Flora y fauna dominicana</h1>
+    </header>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand"
+            href="https://embamex.sre.gob.mx/republicadominicana/index.php/avisos/2-uncategorised/132-info-dominicana">R.D.</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+            aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav">
 
-        <p><img class="logo" src="img/logo.jpg">FAUNA Y FLORA DE REPÚBLICA DOMINICANA</p>
-        <a href="#home">Home</a>
-        <a href="#news">News</a>
-        <div class="dropdown">
-            <button class="dropbtn">Dropdown
-                <i class="fa fa-caret-down"></i>
-            </button>
-            <div class="dropdown-content">
-                <a href="#">Link 1</a>
-                <a href="#">Link 2</a>
-                <a href="#">Link 3</a>
-            </div>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Menú
+                    </a>
+                    <div class="dropdown-menu bg-dark" aria-labelledby="navbarDropdownMenuLink">
+                        <a class="dropdown-item text-light" href="sitio_bootstrap2.html">Pag.2</a>
+
+                    </div>
+                </li>
+            </ul>
         </div>
-    </div>
+    </nav>
 
 
     <div class="container">
         <div class="row">
-            <div class="col-sm-2">
-                <img src="img/jorobada.jpg">
+            <div class="col-lg-2 col-md-4 col-sm-12 mx-auto">
+                <img src="img/chinola.jpeg" class="img-fluid">
             </div>
-            <div class="col-sm-2">
-                <img src="img/daisy.jpeg">
-                <h3>Orquidia Daisy</h3>
+            <div class="col-lg-2 col-md-4 col-sm-12 mx-auto">
+                <img src="img/orquidea.jpg" class="img-fluid">
             </div>
-            <div class="col-sm-2">
-                <img src="img/guayacan.jpg">
-                <h3>Orquidia Daisy</h3>
+            <div class="col-lg-2 col-md-4 col-sm-12 mx-auto">
+                <img src="img/daisy.jpeg" class="img-fluid">
             </div>
-            <div class="col-sm-2">
-                <img src="img/iguana.jpeg">
-                <h3>Orquidia Daisy</h3>
+            <div class="col-lg-2 col-md-4 col-sm-12 mx-auto">
+                <img src="img/carey.jpeg" class="img-fluid">
             </div>
-            <div class="col-sm-2">
-                <img src="img/halcon.jpg">
-                <h3>Orquidia Daisy</h3>
+            <div class="col-lg-2 col-md-4 col-sm-12 mx-auto">
+                <img src="img/guayacan.jpg" class="img-fluid">
             </div>
 
-        </div>
-        <div class="row">
-            <div class="col-sm-2">
-                <img src="img/manglares.jpeg">
-            </div>
-            <div class="col-sm-2">
-                <img src="img/manatí.jpg">
-            </div>
-            <div class="col-sm-2">
-                <img src="img/orquidea.jpg">
-            </div>
-        </div>
+            <div class="offset-lg-1 d-none d-lg-block"></div>
 
+            <div class="col-lg-2 col-md-4 col-sm-12 mx-auto">
+                <img src="img/haitises.jpg" class="img-fluid">
+            </div>
+            <div class="col-lg-2 col-md-4 col-sm-12 mx-auto">
+                <img src="img/halcon.jpg" class="img-fluid">
+            </div>
+            <div class="col-lg-2 col-md-4 col-sm-12 mx-auto">
+                <img src="img/iguana.jpeg" class="img-fluid">
+            </div>
+            <div class="col-lg-2 col-md-4 col-sm-12 mx-auto">
+                <img src="img/jorobada.jpg" class="img-fluid">
+            </div>
+            <div class="col-lg-2 col-md-4 col-sm-12 mx-auto">
+                <img src="img/logo.jpg" class="img-fluid">
+            </div>
+            <div class="offset-lg-1 d-none d-lg-block"></div>
+
+            <div class="col-lg-2 col-md-4 col-sm-12 mx-auto">
+                <img src="img/manatí.jpg" class="img-fluid">
+            </div>
+            <div class="col-lg-2 col-md-4 col-sm-12 mx-auto">
+                <img src="img/manglares.jpeg" class="img-fluid">
+            </div>
+            <div class="col-lg-2 col-md-4 col-sm-12 mx-auto">
+                <img src="img/carpintero.jpg" class="img-fluid">
+            </div>
+            <div class="col-lg-2 col-md-4 col-sm-12 mx-auto">
+                <img src="img/hestero.jpg" class="img-fluid">
+            </div>
+            <div class="col-lg-2 col-md-4 col-sm-12 mx-auto">
+                <img src="img/verde.jpg" class="img-fluid">
+            </div>
+            <div class="offset-lg-1 d-none d-lg-block"></div>
+
+        </div>
+    </div>
+    <!-- dos párrafos  de modo que el
+primero se mostrará solo en tablets y equipos de escritorio, el segundo
+párrafo solo se mostrará en móviles, utiliza clases de bootstrap para ello. -->
+    <div class="container">
         <div class="row">
-            <div class="col-sm-2">
-                <img src="img/carey.jpeg">
+            <div class="d-none d-md-block d-lg-block">
+                <p>La República Dominicana es un país caribeño ubicado en la isla Hispaniola, compartida con Haití. Es conocida por sus
+                    playas de arena blanca y aguas cristalinas, así como por sus montañas, bosques tropicales y la vida silvestre. La
+                    capital, Santo Domingo, es una ciudad colonial con sitios históricos como el Castillo de San Felipe de Barajas y la
+                    Catedral Primada de América. En el este, la ciudad de La Romana es conocida por el parque nacional del Este, con
+                    cascadas y cuevas. </p>
             </div>
-            <div class="col-sm-2">
-                <img src="img/chinola.jpeg">
-            </div>
-            <div class="col-sm-2">
-                <img src="img/haitises.jpg">
+            <div class="d-block d-md-none d-lg-none">
+                <p>El nombre oficial es República Dominicana, cuya capital es Santo Domingo.  El país está situado en el Archipiélago de las Antillas Mayores y en la parte oriental de la isla La Española, que comparte con Haití, ocupando un poco más de dos terceras partes de la misma.  Limita al norte con el Océano Atlántico, al sur con el Mar Caribe o Mar de las Antillas, al este con el Canal de la Mona y al oeste con Haití.  Tiene una superficie de 48,422 kilómetros cuadrados y una población de 10´276,621 habitantes, de acuerdo al censo de 2012.  Tanto por superficie como por población, República Dominicana es el segundo país más grande del Caribe, sólo después de Cuba.  El idioma oficial es el español y la moneda es el peso dominicano.  República Dominicana surgió a la vida independiente el 27 de febrero de 1844.</p>
             </div>
         </div>
 
     </div>
 
-    <footer class="text-center text-lg-start bg-light text-muted">
-        <div class="text-center p-4">
-            <b>Esther Guzman</b>
+
+    
+
+
+    <footer class="page-footer font-small blue" style="background-color: rgb(33, 31, 31); color: white; bottom: 0%;">
+        <div class="footer-copyright text-center py-3">Esther Guzman
         </div>
     </footer>
+
+
+
+
+
+
 </body>
 
 </html>
