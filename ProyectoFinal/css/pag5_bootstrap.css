@@ -1,0 +1,34 @@
+.pedernales {
+    margin-top: -100px;
+    width: 100%;
+    height: 400px;
+    background-image: url('../img/playa1.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 5px;
+
+}
+
+.rd {
+    text-align: center;
+    color: black;
+    font-size: 50px; 
+    padding-top: 180px;
+    font-family: fantasy;
+}
+
+.logo {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-top: -10px;
+
+}
+
+a:link {
+    color: grey; /* cambie #ff0000 por el color que desee */
+  }
+  
+  a:visited {
+    color: grey; /* cambie #00ff00 por el color que desee */
+  }
