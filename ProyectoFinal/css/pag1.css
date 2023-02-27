@@ -30,7 +30,6 @@ body {
 
 
 
-
 /* Estilos para pantallas grandes */
 .navbar {
     display: flex;
@@ -91,3 +90,38 @@ body {
     }
   }
   
+  
+#blobs {
+  width: 830px;
+  height: 450px;
+ 
+  background: url(../img/mapa2.jpg);
+  margin: 10px auto;
+  padding: 0;
+  position: relative;
+}
+
+#blobs li {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: block;
+  position: absolute;
+}
+
+#blobs a {
+  display: block;
+}
+#blob1 {
+  
+  width: 830px;    
+  height: 530px;
+}
+#blob1 a {
+  height: 550px;
+  
+
+}
+#blob1 a:hover {
+  background: url(../img/mapa2.jpg) 0px -454px no-repeat;
+}
