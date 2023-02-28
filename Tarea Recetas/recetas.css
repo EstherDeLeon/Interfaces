@@ -1,5 +1,11 @@
 body {
-    margin: 0%;
+    margin: 0;
+}
+
+.general {
+    margin-left: 20px;
+
+
 }
 
 .banner {
@@ -10,23 +16,26 @@ body {
 
 .banner img {
     width: 98%;
-    height: 500px;
-    margin-left: 16px
+    height: 400px;
+
+
 }
 
 .header {
 
-    margin-top: 310px;
+    margin-top: 210px;
     background-color: rgb(114, 68, 13);
-    margin-left: 16px;
     width: 98%;
     height: 110px;
+    margin-bottom: 0px;
+
 
 }
 
 .header img {
     float: left;
     margin-left: 12px;
+
 }
 
 .header p {
@@ -39,38 +48,49 @@ body {
 
 
 .barra_navegacion {
-    width: 98%;
-    margin-left: 16px;
+  
+    margin-top: -25px;
+    width: 100%;
+    background-color: rgb(9, 6, 0);
+    position: sticky;
+    top: -10px;
+    z-index: 100;
+    padding: auto;
 
 }
 
-.barra {
+.barra_navegacion .barra {
+
     float: right;
     background-color: rgb(4, 4, 4);
-    width: 82.5%;
-    height: 100px;
-    margin-top: -32px;
+    width: 81%;
+    margin-right: 27px;
+    height: 57px;
+    margin-top: -16px;
+
 
 
 }
 
 .main-links {
     display: flex;
-    gap: 3rem;
+    gap: 1rem;
     list-style: none;
 }
 
 .main-links li {
+
     margin-left: -40px;
-    padding: 1rem 3rem 0.5rem 3rem;
-    width: 12%;
-    height: 76px;
-    margin-top: -16px;
-    background-color: rgb(10, 207, 197);
+    margin-top: px;
+    padding: 1rem 5rem 1rem 5rem;
+    width: 100px;
+    height: 25px;
+    background-color: rgb(12, 116, 34);
 }
 
 .dropdown-li {
     position: absolute;
+
 
 }
 
@@ -78,13 +98,13 @@ body {
     color: white;
     font-size: 30px;
     text-align: center;
-    padding: -0px;
+    margin-top: -5px;
 }
 
 .dropdown-li:hover .dropdown {
     display: block;
     opacity: 1;
-    width: auto;
+
 
 }
 
@@ -108,15 +128,181 @@ body {
 }
 
 .content {
-    margin-left: 16px;
+
+    margin-top: -10px;
     width: 98%;
-    height: 1000px;
-    background-color: rgb(83, 30, 30);
+    height: auto;
+    background-color: grey;
 
 }
 
+.receta1 {
+
+    border-radius: 10px;
+    border: black 1px solid;
+    background-color: white;
+    width: 640px;
+    height: auto;
+    margin-top: 65px;
+    margin-left: 410px;
+    align-content: center;
+    padding: 10px;
+    position: relative;
+
+}
+
+.receta2 {
+    border-radius: 10px;
+    border: black 1px solid;
+    background-color: white;
+    width: 640px;
+    height: auto;
+    margin-top: 65px;
+    margin-left: 410px;
+    align-content: center;
+    padding: 10px;
+    position: relative;
+
+}
+
+.receta3 {
+    border-radius: 10px;
+    border: black 1px solid;
+    background-color: white;
+    width: 640px;
+    height: auto;
+    margin-top: 65px;
+    margin-left: 410px;
+    align-content: center;
+    padding: 10px;
+    position: relative;
+
+}
+
+.receta4 {
+    border-radius: 10px;
+    border: black 1px solid;
+    background-color: white;
+    width: 640px;
+    height: auto;
+    margin-top: 65px;
+    margin-left: 410px;
+    align-content: center;
+    padding: 10px;
+    position: relative;
+
+}
+
+.receta5 {
+    border-radius: 10px;
+    border: black 1px solid;
+    background-color: white;
+    width: 640px;
+    height: auto;
+    margin-top: 65px;
+    margin-left: 410px;
+    align-content: center;
+    padding: 10px;
+    position: relative;
+
+}
+
+.receta6 {
+    border-radius: 10px;
+    border: black 1px solid;
+    background-color: white;
+    width: 640px;
+    height: auto;
+    margin-top: 65px;
+    margin-left: 410px;
+    align-content: center;
+    padding: 10px;
+    position: relative;
+
+}
+
+.tiramisu {
+    width: 20%;
+    height: 5%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    float: right;
+    border: black 1px solid;
+}
+
+.a_leche {
+    width: 20%;
+    height: 5%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    float: right;
+    border: black 1px solid;
+}
+
+.c_catalana {
+    width: 20%;
+    height: 5%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    float: right;
+    border: black 1px solid;
+}
+
+.d_leche {
+    width: 20%;
+    height: 5%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    float: right;
+    border: black 1px solid;
+}
+
+.t_chocolate {
+    width: 20%;
+    height: 5%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    float: right;
+    border: black 1px solid;
+}
+
+.t_manzana {
+    width: 20%;
+    height: 5%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    float: right;
+    border: black 1px solid;
+}
+
+
+
+:target {
+    border: 5px inset rgb(237, 96, 20);
+}
+
+#columnas:checked~.contenido {
+    column-count: 2;
+}
+
+#English:not(:checked)~.contenido .in {
+    display: none;
+}
+
+
+#English:checked~.contenido .es {
+    display: none;
+}
+
+
 .footer {
-    margin-left: 16px;
+
     width: 98%;
     height: 50px;
     margin-top: 0px;
@@ -129,7 +315,7 @@ body {
     float: left;
     color: white;
     font-size: 20px;
-    margin-left: 5px;
+    margin-left: 10px;
 
 }
 
@@ -137,6 +323,6 @@ body {
     float: right;
     color: white;
     font-size: 20px;
-    margin-right: 5px;
+    margin-right: 10px;
 
 }

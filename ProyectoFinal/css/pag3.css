@@ -87,4 +87,64 @@ body {
       text-align: center;
     }
   }
+  .receta6 {
+    /* Agregamos estas propiedades */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    max-width: 100%;
+  }
+  .es {
+    text-align: justify;
+    width: 50%;
+    margin-left: 25%;
+  }
+  .in {
+    text-align: justify;
+    width: 50%;
+    margin-left: 25%;
+  }
   
+  
+  /* También podemos agregar estas propiedades para que el contenido dentro del contenedor sea responsive */
+  img, video {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  /* Esta regla oculta el contenido en inglés si el input #English no está chequeado */
+  #English:not(:checked)~.contenido .in {
+    display: none;
+  }
+  
+  /* Esta regla oculta el contenido en español si el input #English está chequeado */
+  #English:checked~.contenido .es {
+    display: none;
+  }
+  
+  .colon{
+    width: 50%;
+    height: 40%;
+    margin-left: 25%;
+    
+  }
+
+
+
+
+
+  
+  .footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: whitesmoke;
+    color: Black;
+    text-align: center;
+    border-radius: 5px;
+}

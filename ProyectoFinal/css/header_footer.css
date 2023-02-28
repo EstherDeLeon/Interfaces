@@ -25,10 +25,21 @@
 
 }
 
-a:link {
+  a:link {
     color: grey; /* cambie #ff0000 por el color que desee */
   }
   
   a:visited {
     color: grey; /* cambie #00ff00 por el color que desee */
   }
+
+  .footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: whitesmoke;
+    color: Black;
+    text-align: center;
+    border-radius: 5px;
+}
